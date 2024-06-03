@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log In</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #6ae0ff;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .container {
+    max-width: 200px;
+    max-heigt: 100px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #3d6993;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #4fc6ed9b;
+  }
+  .signup-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  button {
+      background-color: #000000;
+      padding: 5px;
+      width: 100px;
+      color: #ffffff;
+  }
+</style>
+</head>
+<body>
+    <div class="title">
+        <center><h1>JVAP Company</h1></center>
+        <center><p>Live Your Life in A Cleanest form</p></center>
+    </div>
+  <div class="container">
+    <h2>Create Password</h2>
+    <form action="index.html" method="get">
+    <form id="signupForm2">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="Confirmpassword">Confirm Password:</label>
+      <input type="password" id="confirmpassword" name="confirmpassword" required>
+      <button onclick="savePassword()">Sign Up</button>
+      <center><p>or</p></center>
+    </form>
+    <form action="signup.html" method="get">
+        <input type="submit" value="back">
+        </form>
+  </div>
+
+<script src="same.js"></script>
+</body>
+</html>

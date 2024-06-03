@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url('image1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+.main h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+section {
+  text-align: center;
+}
+
+section h4 {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 30px;
+}
+
+section h5 {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 15px;
+}
+
+section ul li {
+  text-align: left;
+  margin-left: 50%;
+  font-size: 15px;
+  padding: 0px 10px;
+   }
+   
+button {
+    margin-bottom: 10px;
+  font-size: 25px;
+  padding: 10px 10px;
+  background-color: #000000;
+  color:#ffffff;
+  text-align: left;
+  margin-left: 50%;
+}
+
+button:hover {
+    background-color: #6ae0ff;
+}
+
+.sidenav a.active {
+  background-color: #ffffff;
+  color: #556dff;
+}            
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="home.html">Home</a>
+  <a href="product.html">Products</a>
+  <a href="services.html" class="active">Services</a>
+  <a href="about.html">About Us</a>
+</div>
+
+<div class="main">
+  <h2>JVAP Company</h2>  
+</div>
+        <section>
+            <h4>Our Services</h4>
+            <h5>Discover our range of services:</h5>
+            <ul>
+                <li>Residential cleaning</li><br>
+                <li>Commercial Cleaning</li><br>
+                <li>Carpet Cleaning</li><br>
+                <li>Deep Cleaning</li><br>
+                <li>Window Cleaning</li><br>
+                <li>Move-in/Move-out Cleaning</li><br>
+                <li>Office Cleaning</li><br>
+            </ul>
+        </section>
+ 
+        <center>
+<button>Booking</button>
+        </center>
+   
+</body>
+</html> 
